@@ -8,13 +8,13 @@ end
 def summon_captain_planet(array)
   array.collect do |planeteer|
     planeteer.capitalize << "!"
-    return true
   end
 end
 
 def long_planeteer_calls(array)
   array.detect do |word|
     word.length > 4
+    return true
   end
 end
 
